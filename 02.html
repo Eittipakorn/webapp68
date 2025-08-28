@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No. 2</title>
+
+    <style>
+    .container {
+      position: relative;
+      width: 200px;
+    }
+
+    .container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      top: 35%;
+      transform: translateY(-50%);
+      height: 30%;
+      background: rgba(0, 0, 0, 0.4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .overlay-text {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>No. 2</h1>
+    <div style="margin: 5px; border: 1px; border-style: solid; padding: 5px">
+        <p><b>Preview:</b></p>
+        <div class="container">
+            <img src="no2_hellomonday.jpg" alt="yellow flower" witdth="200" height="200">
+            <div class="overlay">
+                <div class="overlay-text">Hello, Monday</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
